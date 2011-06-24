@@ -48,7 +48,7 @@ Feature: sending and receiving requests
     And I add the person to my 2nd aspect
 
     When I go to the home page
-    Then I go to the manage aspects page
+    Then I go to the contacts page
 
     Then I should see 1 contact in "Unicorns"
     Then I should see 1 contact in "Besties"
@@ -79,7 +79,7 @@ Feature: sending and receiving requests
     And I wait for the ajax to finish
 
    When I go to the home page
-   Then I go to the manage aspects page
+   Then I go to the contacts page
    Then I should see 1 contact in "Super People"
    Then I go to the destroy user session page
 

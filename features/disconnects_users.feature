@@ -31,7 +31,7 @@ Feature: disconnecting users
 
     And I remove the person from my 1st aspect
 
-    And I am on the manage aspects page
+    And I am on the contacts page
    Then I should see no contacts in "Besties"
    
     Then I go to the destroy user session page
